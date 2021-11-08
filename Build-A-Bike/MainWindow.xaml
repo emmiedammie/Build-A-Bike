@@ -9,13 +9,16 @@
         </Grid.RowDefinitions>        <ListBox x:Name="lstFrame" HorizontalAlignment="Left" Height="100" Margin="28,120,0,0" VerticalAlignment="Top" Width="141" Grid.RowSpan="2"/>
         <ListBox x:Name="lstGroupSet" HorizontalAlignment="Left" Height="100" Margin="198,125,0,0" VerticalAlignment="Top" Width="141" Grid.RowSpan="2"/>
         <ListBox x:Name="lstFinishingSet" Height="100" Margin="362,125,460,0" VerticalAlignment="Top" Grid.RowSpan="2"/>
-        <ListBox x:Name="lstBike" HorizontalAlignment="Left" Height="95" Margin="507,120,0,0" VerticalAlignment="Top" Width="147" Grid.RowSpan="2" />
-        <Button x:Name="btnConfirmSelection" Content="Confirm Selection" HorizontalAlignment="Left" Margin="382,143,0,0" VerticalAlignment="Top" Width="106" Height="49" Click="btnConfirmSelection_Click"/>
+        <ListBox x:Name="lstBike" HorizontalAlignment="Left" Height="95" Margin="675,125,0,0" VerticalAlignment="Top" Width="147" Grid.RowSpan="2" />
+        <Button x:Name="btnConfirmSelection" Content="Confirm Selection" HorizontalAlignment="Left" Margin="528,140,0,0" VerticalAlignment="Top" Width="106" Height="49" Click="btnConfirmSelection_Click"/>
+        
         <Label x:Name="lblInfo1" Content="Please Select The Components for your new bike" HorizontalAlignment="Left" Margin="28,35,0,0" VerticalAlignment="Top" Width="274"/>
         <Label Content="then click the Confirm Selection button" HorizontalAlignment="Left" Margin="28,59,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblFrame" Content="Frame:" HorizontalAlignment="Left" Margin="28,90,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblGroupSet" Content="Group Set:" HorizontalAlignment="Left" Margin="144,94,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblFinishingSet" Content="Finishing Set:" HorizontalAlignment="Left" Margin="259,94,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblBike" Content="Bike Selected:" HorizontalAlignment="Left" Margin="507,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblGroupSet" Content="Group Set:" HorizontalAlignment="Left" Margin="198,99,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblFinishingSet" Content="Finishing Set:" HorizontalAlignment="Left" Margin="362,98,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblBike" Content="Bike Selected:" HorizontalAlignment="Left" Margin="675,99,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblTotalCost" Content="" HorizontalAlignment="Left" Margin="784,38,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label x:Name="lblInfo3" Content="Total Cost =   £" HorizontalAlignment="Left" Margin="675,38,0,0" Grid.Row="1" VerticalAlignment="Top"/>
     </Grid>
 </Window>
