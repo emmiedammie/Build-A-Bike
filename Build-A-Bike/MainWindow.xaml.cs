@@ -59,6 +59,7 @@ namespace Build_A_Bike
             string[] finishingSetArray = finishingSetText.Split('£');
             Decimal finishingSetCost = Convert.ToDecimal(finishingSetArray[1]);
             
+
             //calculate total cost and display in lblTotalCost
             Decimal totalCost = frameCost + groupSetCost + finishingSetCost;
             lblTotalCost.Content = totalCost.ToString();
