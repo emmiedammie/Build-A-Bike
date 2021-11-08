@@ -23,6 +23,27 @@ namespace Build_A_Bike
         public MainWindow()
         {
             InitializeComponent();
+            // add items to lstFrame
+            lstFrame.Items.Add("Frame Type 1");
+            lstFrame.Items.Add("Frame Type 2");
+            lstFrame.Items.Add("Frame Type 3");
+            // add items to lstGroupSet
+            lstGroupSet.Items.Add("Group Set A");
+            lstGroupSet.Items.Add("Group Set B");
+            lstGroupSet.Items.Add("Group Set C");
+            // add items to lstFinishingSet
+            lstFinishingSet.Items.Add("Finishing Set X");
+            lstFinishingSet.Items.Add("Finishing Set Y");
+            lstFinishingSet.Items.Add("Finishing Set Z");
         }
+        private void btnConfirmSelection_Click(object sender, RoutedEventArgs e)
+        {
+            //Display Selected Bike Components
+            lstBike.Items.Clear(); //Empty the List Box in case there was a previous selection
+            lstBike.Items.Add(lstFrame.SelectedValue.ToString());
+            lstBike.Items.Add(lstGroupSet.SelectedValue.ToString());
+            lstBike.Items.Add(lstFinishingSet.SelectedValue.ToString());
+        }
+
     }
 }
